@@ -26,7 +26,6 @@ Fuzz everything! Now let's fuzz chip!
 | RISCVuzz: Discovering Architectural CPU Vulnerabilities via Differential Hardware Fuzzing | Black Hat USA 2024 | Black Hat [link](https://ghostwriteattack.com/) | [link](https://github.com/cispa/ghostwrite)|
 | SSFuzz: Generating syntactic and semantic seeds for RISC-V processors | GLSVLSI 2024 | ACM [link](https://dl.acm.org/doi/10.1145/3649476.3658712) |  |
 | PathFuzz: Broadening Fuzzing Horizons with Footprint Memory for CPUs | DAC 2024 | DAC [link](https://61dac.conference-program.com/presentation/?id=RESEARCH419&sess=sess136) | [link](https://github.com/OpenXiangShan/xfuzz) |
-| CFTCG: Test Case Generation for Simulink Model through Code Based Fuzzing | DAC 2024 | Paper [link](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/CFTCG_DAC24.pdf) |  |
 | Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing | DAC 2024 | arXiv [link](https://arxiv.org/abs/2404.06856) |  |
 
 
