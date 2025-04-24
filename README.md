@@ -31,6 +31,8 @@ Fuzz everything! Now let's fuzz chip!
 | HyPFuzz: Formal-Assisted Processor Fuzzing | USENIX Security 2023 | arXiv [link](https://arxiv.org/pdf/2304.02485.pdf) |  |
 | WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors | USENIX Security 2024 | USENIX [link](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | |
 | Fuzzerfly Effect: Hardware Fuzzing for Memory Safety | IEEE S&P 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10462151) | |
+| HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing | Computers & Security | Elsevier [link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671) |  |
+
 
 
 ## Courses
