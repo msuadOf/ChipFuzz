@@ -27,6 +27,10 @@ Fuzz everything! Now let's fuzz chip!
 | SSFuzz: Generating syntactic and semantic seeds for RISC-V processors | GLSVLSI 2024 | ACM [link](https://dl.acm.org/doi/10.1145/3649476.3658712) |  |
 | PathFuzz: Broadening Fuzzing Horizons with Footprint Memory for CPUs | DAC 2024 | DAC [link](https://61dac.conference-program.com/presentation/?id=RESEARCH419&sess=sess136) | [link](https://github.com/OpenXiangShan/xfuzz) |
 | Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing | DAC 2024 | arXiv [link](https://arxiv.org/abs/2404.06856) |  |
+| MABFuzz: Multi-Armed Bandit Algorithms for Fuzzing Processors | DATE 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10546726) |  |
+| HyPFuzz: Formal-Assisted Processor Fuzzing | USENIX Security 2023 | arXiv [link](https://arxiv.org/pdf/2304.02485.pdf) |  |
+| WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors | USENIX Security 2024 | USENIX [link](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | |
+| Fuzzerfly Effect: Hardware Fuzzing for Memory Safety | IEEE S&P 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10462151) | |
 
 
 ## Courses
