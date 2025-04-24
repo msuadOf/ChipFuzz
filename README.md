@@ -27,6 +27,7 @@ Fuzz everything! Now let's fuzz chip!
 | SSFuzz: Generating syntactic and semantic seeds for RISC-V processors | GLSVLSI 2024 | ACM [link](https://dl.acm.org/doi/10.1145/3649476.3658712) |  |
 | PathFuzz: Broadening Fuzzing Horizons with Footprint Memory for CPUs | DAC 2024 | DAC [link](https://61dac.conference-program.com/presentation/?id=RESEARCH419&sess=sess136) | [link](https://github.com/OpenXiangShan/xfuzz) |
 | Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing | DAC 2024 | arXiv [link](https://arxiv.org/abs/2404.06856) |  |
+| HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing | Computers & Security | Elsevier [link]([https://arxiv.org/abs/2404.06856](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671)) |  |
 
 
 ## Courses
