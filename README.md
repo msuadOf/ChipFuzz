@@ -32,6 +32,7 @@ Fuzz everything! Now let's fuzz chip!
 | WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors | USENIX Security 2024 | USENIX [link](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | |
 | Fuzzerfly Effect: Hardware Fuzzing for Memory Safety | IEEE S&P 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10462151) | |
 | HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing | Computers & Security | Elsevier [link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671) |  |
+| DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing | ASPLOS 2025 | arXiv [link](https://arxiv.org/abs/2504.20934) | [link](https://github.com/sycuricon/DejaVuzz) |
 
 
 
