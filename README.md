@@ -33,6 +33,7 @@ Fuzz everything! Now let's fuzz chip!
 | Fuzzerfly Effect: Hardware Fuzzing for Memory Safety | IEEE S&P 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10462151) | |
 | HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing | Computers & Security | Elsevier [link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671) |  |
 | FormalFuzzer: Formal Verification Assisted Fuzz Testing for SoC Vulnerability Detection | ASP-DAC 2024| IEEE [link](https://ieeexplore.ieee.org/abstract/document/10473911) |  |
+| The Emergence of Hardware Fuzzing: A Critical Review of its Significance  |  Arxiv Survey 2024 |  arxiv [link](https://arxiv.org/abs/2403.12812) | |
 | DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing | ASPLOS 2025 | arXiv [link](https://arxiv.org/abs/2504.20934) | [link](https://github.com/sycuricon/DejaVuzz) |
 
 
