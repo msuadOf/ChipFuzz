@@ -14,7 +14,7 @@ Fuzz everything! Now let's fuzz chip!
 | DifuzzRTL: Differential Fuzz Testing to Find CPU Bugs | IEEE S&P 2021 | IEEE [link](https://ieeexplore.ieee.org/document/9519470) | [link](https://github.com/compsec-snu/difuzz-rtl)|
 | Effective Processor Verification with Logic Fuzzer Enhanced Co-simulation | MICRO 2021 | ACM [link](https://dl.acm.org/doi/10.1145/3466752.3480092) | [link](https://github.com/chipsalliance/dromajo.git) |
 | DirectFuzz: Automated Test Generation for RTL Designs using Directed Graybox Fuzzing | DAC 2021 | IEEE [link](https://ieeexplore.ieee.org/document/9586289/) |  |
-| RTLFuzzLab: Building A Modular Open-Source Hardware Fuzzing Framework | WOSET 2021 | WOSET [link](https://woset-workshop.github.io/PDFs/2021/a10.pdf) |  |
+| RTLFuzzLab: Building A Modular Open-Source Hardware Fuzzing Framework | WOSET 2021 | WOSET [link](https://woset-workshop.github.io/PDFs/2021/a10.pdf) | [link](https://github.com/ekiwi/rtl-fuzz-lab) |
 | TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities | USENIX Security 2022 | USENIX [link](https://www.usenix.org/conference/usenixsecurity22/presentation/kande) |  |
 | Fuzzing Hardware Like Software | USENIX Security 2022 | USENIX [link](https://www.usenix.org/conference/usenixsecurity22/presentation/trippel) | [link](https://github.com/googleinterns/hw-fuzzing) |
 | Efficient Cross-Level Processor Verification using Coverage-guided Fuzzing | GLSVLSI 2022 | ACM [link](https://dl.acm.org/doi/10.1145/3526241.3530340) |  |
@@ -29,13 +29,16 @@ Fuzz everything! Now let's fuzz chip!
 | Beyond Random Inputs: A Novel ML-Based Hardware Fuzzing | DAC 2024 | arXiv [link](https://arxiv.org/abs/2404.06856) |  |
 | MABFuzz: Multi-Armed Bandit Algorithms for Fuzzing Processors | DATE 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10546726) |  |
 | HyPFuzz: Formal-Assisted Processor Fuzzing | USENIX Security 2023 | arXiv [link](https://arxiv.org/pdf/2304.02485.pdf) |  |
-| WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors | USENIX Security 2024 | USENIX [link](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | |
+| WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors | USENIX Security 2024 | USENIX [link](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | Vulnerability Artifact [link](https://zenodo.org/records/14166394) |
 | Fuzzerfly Effect: Hardware Fuzzing for Memory Safety | IEEE S&P 2024 | IEEE [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10462151) | |
 | HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing | Computers & Security | Elsevier [link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671) |  |
 | FormalFuzzer: Formal Verification Assisted Fuzz Testing for SoC Vulnerability Detection | ASP-DAC 2024| IEEE [link](https://ieeexplore.ieee.org/abstract/document/10473911) |  |
 | The Emergence of Hardware Fuzzing: A Critical Review of its Significance  |  Arxiv Survey 2024 |  arxiv [link](https://arxiv.org/abs/2403.12812) | |
 | DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing | ASPLOS 2025 | arXiv [link](https://arxiv.org/abs/2504.20934) | [link](https://github.com/sycuricon/DejaVuzz) |
 | FeedbackFuzz: Fuzzing Processors via Intricate Program Generation with Feedback Engine | ICASSP 2025 | IEEE [link](https://ieeexplore.ieee.org/document/10889404) |  |
+| Bridging the Gap between Hardware Fuzzing and Industrial Verification | GLSVLSI 2025 | arXiv [link](https://arxiv.org/abs/2506.00461) | [link](https://github.com/magicYang1573/fast-hw-fuzz) |
+| Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection | USENIX Security 2025 | USENIX [link](https://www.usenix.org/conference/usenixsecurity25/presentation/bolcskei) | [link](https://github.com/comsec-group/encarsia) |
+
 
 
 ## Courses
