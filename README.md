@@ -101,7 +101,7 @@ Fuzz everything! Now let's fuzz chip!
 - **MABFuzz: Multi-Armed Bandit Algorithms for Fuzzing Processors**  
   Paper: [IEEE link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10546726) · Code: _n/a_
 
-- **SSFuzz: Generating syntactic and semantic seeds for RISC-V processors** 
+- **SSFuzz: Generating syntactic and semantic seeds for RISC-V processors**  
   Paper: [ACM link](https://dl.acm.org/doi/10.1145/3649476.3658712) · Code: _n/a_
 
 - **FormalFuzzer: Formal Verification Assisted Fuzz Testing for SoC Vulnerability Detection**   
@@ -109,7 +109,7 @@ Fuzz everything! Now let's fuzz chip!
 
 
 ###  Others
-- **The Emergence of Hardware Fuzzing: A Critical Review of its Significance** 
+- **The Emergence of Hardware Fuzzing: A Critical Review of its Significance**  
   Paper: [arXiv link](https://arxiv.org/abs/2403.12812) · Code: _n/a_
 
 - **Fuzzerfly Effect: Hardware Fuzzing for Memory Safety**  
@@ -129,7 +129,7 @@ Fuzz everything! Now let's fuzz chip!
 
 
 ### GLSVLSI
-- **Bridging the Gap between Hardware Fuzzing and Industrial Verification** 
+- **Bridging the Gap between Hardware Fuzzing and Industrial Verification**  
   Paper: [arXiv link](https://arxiv.org/abs/2506.00461) · Code: [magicYang1573/fast-hw-fuzz](https://github.com/magicYang1573/fast-hw-fuzz)
 
 
