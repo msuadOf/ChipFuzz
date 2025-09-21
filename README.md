@@ -132,7 +132,10 @@ Fuzz everything! Now let's fuzz chip!
 - **Bridging the Gap between Hardware Fuzzing and Industrial Verification**  
   Paper: [arXiv link](https://arxiv.org/abs/2506.00461) · Code: [magicYang1573/fast-hw-fuzz](https://github.com/magicYang1573/fast-hw-fuzz)
 
-
+### Computers & Security
+- **HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing**  
+  Paper: [Elsevier link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671)
+  
 ### ICASSP
 - **FeedbackFuzz: Fuzzing Processors via Intricate Program Generation with Feedback Engine**   
   Paper: [IEEE link](https://ieeexplore.ieee.org/document/10889404) · Code: _n/a_
