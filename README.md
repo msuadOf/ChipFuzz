@@ -132,9 +132,12 @@ Fuzz everything! Now let's fuzz chip!
 - **Bridging the Gap between Hardware Fuzzing and Industrial Verification**  
   Paper: [arXiv link](https://arxiv.org/abs/2506.00461) · Code: [magicYang1573/fast-hw-fuzz](https://github.com/magicYang1573/fast-hw-fuzz)
 
+- **Microarchitecture Evaluation Framework for Transient Execution Attack Vulnerability: Metrics, Fuzzing, and Sensitivity Analysis**
+  Paper: [ACM Line](https://dl.acm.org/doi/10.1145/3716368.3735225) · Code: _n/a_
+
 ### Computers & Security
 - **HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing**  
-  Paper: [Elsevier link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671)
+  Paper: [Elsevier link](https://www.sciencedirect.com/science/article/abs/pii/S0167404825001671) · Code: _n/a_
   
 ### ICASSP
 - **FeedbackFuzz: Fuzzing Processors via Intricate Program Generation with Feedback Engine**   
