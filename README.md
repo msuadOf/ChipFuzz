@@ -127,13 +127,15 @@ Fuzz everything! Now let's fuzz chip!
 - **DejaVuzz: Disclosing Transient Execution Bugs with Dynamic Swappable Memory and Differential Information Flow Tracking assisted Processor Fuzzing**   
   Paper: [arXiv link](https://arxiv.org/abs/2504.20934) · Code: [sycuricon/DejaVuzz](https://github.com/sycuricon/DejaVuzz)
 
-
+### MICRO
+- **SymbFuzz: Symbolic Execution Guided Hardware Fuzzing**   
+  Paper: [ACM link](https://dl.acm.org/doi/10.1145/3725843.3756131)· Code: _n/a_
 ### GLSVLSI
 - **Bridging the Gap between Hardware Fuzzing and Industrial Verification**  
   Paper: [arXiv link](https://arxiv.org/abs/2506.00461) · Code: [magicYang1573/fast-hw-fuzz](https://github.com/magicYang1573/fast-hw-fuzz)
 
 - **Microarchitecture Evaluation Framework for Transient Execution Attack Vulnerability: Metrics, Fuzzing, and Sensitivity Analysis**
-  Paper: [ACM Line](https://dl.acm.org/doi/10.1145/3716368.3735225) · Code: _n/a_
+  Paper: [ACM Link](https://dl.acm.org/doi/10.1145/3716368.3735225) · Code: _n/a_
 
 ### Computers & Security
 - **HScheduler: An execution history-based seed scheduling strategy for hardware fuzzing**  
