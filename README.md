@@ -49,6 +49,7 @@ Fuzz everything! Now let's fuzz chip!
 
 - **Fuzzing Hardware Like Software**     
   Paper: [USENIX link](https://www.usenix.org/conference/usenixsecurity22/presentation/trippel) · Code: [googleinterns/hw-fuzzing](https://github.com/googleinterns/hw-fuzzing)
+  亮点：AFL、总线语法（对tilelink总线系统也有一些工作）
 
 
 ### GLSVLSI
@@ -66,6 +67,10 @@ Fuzz everything! Now let's fuzz chip!
 ### USENIX Security
 - **MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation**   
   Paper: [USENIX link](https://www.usenix.org/conference/usenixsecurity23/presentation/xu-jinyan) · Code: [sycuricon/MorFuzz](https://github.com/sycuricon/MorFuzz)
+  co-sim: 1.二阶段指令提交，先提交触发isa-emu记录下写回结果，再到延迟写回的数据准备好时再和记下的结果比较，以适配如rocket指令commit阶段延迟回写 2.可状态同步，再在遇到可missmatch的情况，允许将rtl的状态同步到sim中，以弥合一些isa中允许自由实现的差异
+  ps.有点意思，但改进没啥意义
+  morphing: 在IFU和IDU间插了个组件，即采用“运行时指令变形”技术，在处理器执行期间动态劫持并修改即将执行的指令，同时利用当前的运行时上下文信息（如寄存器状态和流水线情况）来生成具有有效格式和有意义语义的指令流
+  ps.难绷，我认为不合适fuzz的形态
 
 - **HyPFuzz: Formal-Assisted Processor Fuzzing**      
   Paper: [arXiv link](https://arxiv.org/pdf/2304.02485.pdf) · Code: _n/a_
@@ -103,6 +108,7 @@ Fuzz everything! Now let's fuzz chip!
 
 - **SSFuzz: Generating syntactic and semantic seeds for RISC-V processors**  
   Paper: [ACM link](https://dl.acm.org/doi/10.1145/3649476.3658712) · Code: _n/a_
+  iie.
 
 - **FormalFuzzer: Formal Verification Assisted Fuzz Testing for SoC Vulnerability Detection**   
   Paper: [IEEE link](https://ieeexplore.ieee.org/abstract/document/10473911) · Code: _n/a_
@@ -130,9 +136,13 @@ Fuzz everything! Now let's fuzz chip!
 ### MICRO
 - **SymbFuzz: Symbolic Execution Guided Hardware Fuzzing**   
   Paper: [ACM link](https://dl.acm.org/doi/10.1145/3725843.3756131)· Code: _n/a_
+  co-sim: 基于uvm，虽然和前面的不太一样，但没什么好说的
+  driver: 用smt生成CFG树，也就是if分支判断树，去判断不同条件下变量的赋值情况，当生成的激励产生的变量值稳定后，如果还有CFG树分支没有执行过，就会顺着CFG树去找赋值情况，并提供激励来覆盖到。
+
 ### GLSVLSI
 - **Bridging the Gap between Hardware Fuzzing and Industrial Verification**  
   Paper: [arXiv link](https://arxiv.org/abs/2506.00461) · Code: [magicYang1573/fast-hw-fuzz](https://github.com/magicYang1573/fast-hw-fuzz)
+  基于verilator做了一个fuzz的性能优化：覆盖率是直接改verilator拿到的（代替与vcs进程通讯），Mutation是用简化的AFL（仅实现了这两个操作：havoc（随机修改字节值）和 splice（两个染色体交叉）），仿真并行化
 
 - **Microarchitecture Evaluation Framework for Transient Execution Attack Vulnerability: Metrics, Fuzzing, and Sensitivity Analysis**
   Paper: [ACM Link](https://dl.acm.org/doi/10.1145/3716368.3735225) · Code: _n/a_
@@ -144,6 +154,10 @@ Fuzz everything! Now let's fuzz chip!
 ### ICASSP
 - **FeedbackFuzz: Fuzzing Processors via Intricate Program Generation with Feedback Engine**   
   Paper: [IEEE link](https://ieeexplore.ieee.org/document/10889404) · Code: _n/a_
+
+### ???
+- **FuSS: Coverage-Directed Hardware Fuzzing with Selective Symbolic Execution**
+  Paper: [ACM link](https://dl.acm.org/doi/10.1145/3760529) · Code: _n/a_
 
 ---
 
